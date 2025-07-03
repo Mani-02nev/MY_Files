@@ -1,0 +1,13 @@
+printf [-v var] format [arguments] pushd [dir | +N | -N] [-n]
+ pwd [-LP]                          read [-ers] [-u fd] [-t timeout] [
+ readonly [-af] [name[=value] ...]  return [n]
+ select NAME [in WORDS ... ;] do CO set [--abefhkmnptuvxBCHP] [-o opti
+ shift [n]                          shopt [-pqsu] [-o long-option] opt
+ source filename [arguments]        suspend [-f]
+ test [expr]                        time [-p] PIPELINE
+ times                              trap [-lp] [arg signal_spec ...]
+ true                               type [-afptP] name [name ...]
+ typeset [-afFirtx] [-p] name[=valu ulimit [-SHacdfilmnpqstuvx] [limit
+ umask [-p] [-S] [mode]             unalias [-a] name [name ...]
+ unset [-f] [-v] [name ...]         until COMMANDS; do COMMANDS; done
+ variables - Some variable names an wait [n]

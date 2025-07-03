@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "__locale": "c",
+        "__availability": "c",
+        "string": "c",
+        "string.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "attrri",
+        "Charetor",
+        "Fouctin",
+        "mani",
+        "perticular",
+        "RDBMS",
+        "அந்த",
+        "இல்லை",
+        "கோப்பு",
+        "பெயரில்",
+        "வணக்கம்"
+    ]
+}

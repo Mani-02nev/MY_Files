@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" sizes="860x816" href="https://www.kindpng.com/imgv/hTmxxb_transparent-firebird-logo-png-logo-png-fire-bird/">
+
+     
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+        integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+        crossorigin="anonymous">
+            ;</script>
+</head>
+
+<body>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+    <div id="div" class="container">
+        
+                <center>
+                <h3 class="card-title">Login</h3>
+            
+                <div  class="form-outline col align-self-center" data-mdb-input-init>
+                    <input type="text" onclick="form12.value=''" id="form12" class="form-control" />
+                    <label class="form-label" for="form12">User Name</label>
+                   
+        
+                </div>
+                <br>
+                <div class="form-outline" style="width: 22rem;" data-mdb-input-init>
+                    <input type="password" onclick="form12.value=''" id="form12"
+                        class="form-control form-icon-trailing" />
+                    <label class="form-label" for="form20">Password</label>
+                   
+                </div>
+                <br>
+                <div class="form-outline" style="width: 22rem;" data-mdb-input-init>
+                    <input type="email" onclick="form20.value=''" id="form20" class="form-control form-icon-trailing" />
+                    <label class="form-label" for="form20">Email </label>
+            
+                </div>
+                <br>
+                
+                <div class="form-outline" style="width: 22rem;" data-mdb-input-init>
+                    <input type="text" onclick="form21.value=''" id="form21" class="form-control form-icon-trailing" />
+                    <label class="form-label" for="form20">Phone no</label>
+                    <span class="trailing pe-auto clear d-none" tabindex="0">✕</span>
+                </div>
+                <br>
+                
+                <button type="button" class="btn btn-secondary btn-rounded" data-mdb-ripple-init>Login</button>
+            </center>
+          
+    </div>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container {
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-color: white;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: #ffffff;
+        }
+
+        .trailing.clear {
+            cursor: pointer;
+
+            &:focus {
+                color: #ffffff;
+                outline: none;
+            }
+        }
+        body  {
+           background-image: url("https://unsplash.com/photos/pink-and-yellow-wall-paint-kgqu_qs3B78");
+           background-repeat: no-repeat;
+           width: 100vw;
+          height: 100vh;
+         background-size: cover;
+        }
+        #div{
+            background-color: transparent;
+            filter: blur(px);
+            background-filter:
+        }
+        .card-body{
+            filter: blur(1px);
+        }
+    </style>
+    <script>
+        document.querySelectorAll('.form-outline').forEach((formOutline) => {
+            new mdb.Input(formOutline).init();
+        })
+        import { Input, initMDB } from "mdb-ui-kit";
+
+
+
+
+    </script>
+
+</body>
+
+</html>

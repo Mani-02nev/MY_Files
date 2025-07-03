@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gobinath/study/mani/c_program/exe_1'
+relocations:     []
+...

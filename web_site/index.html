@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+        integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="text-center card-title">Registration Form</h1>
+                <hr class="my-1">
+                <br>
+
+                <div class="row">
+                    <div class="col-sm-5 col-md-6">
+                        <div id='myElement'>
+                            <div class="form-outline" data-mdb-input-init>
+                                <input type="text" class="form-control" />
+                                <label class="form-label">Reg No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                        <div id='myElement'>
+                            <div class="form-outline" data-mdb-input-init>
+                                <input type="date" class="form-control" />
+                                <label class="form-label">Date</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <p id="p1">User Name</p> <i class="far fa-circle-user"></i>
+            <div class="row">
+                <div class="col-sm-5 col-md-6">
+                    <div id='myElement'>
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="text" class="form-control" />
+                            <label class="form-label">First Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                    <div id='myElement'>
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="text" class="form-control" />
+                            <label class="form-label">Last Name</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5 col-md-6">
+                    <p id="p1">Father Name </p> <i class="far fa-circle-user"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-6">
+                    <div id='myElement'>
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="text" class="form-control" />
+                            <label class="form-label">First Name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                    <div id='myElement'>
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="text" class="form-control" />
+                            <label class="form-label">last Name</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-6">
+                    <p style="display: inline;margin-top: 10px;"> Gender</p>
+                    <br>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </div>
+                <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                    <div id='myElement'>
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="text" class="form-control" />
+                            <label class="form-label">Age</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <textarea class="form-control" id="form7Example7" rows="2.5"></textarea>
+                <label class="form-label">Address</label>
+            </div>
+            <br>
+            <div class="row justify-content-evenly">
+                <div class="col-4">
+                    <button type="button" class="btn btn-outline-success btn-rounded" data-mdb-ripple-init
+                        data-mdb-ripple-color="dark">Submit</button>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-outline-danger btn-rounded" data-mdb-ripple-init
+                        data-mdb-ripple-color="dark"><a href="https://www.google.com/">Cancel</a></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <style>
+        .container {
+            width: 100%;
+            height: 930px;
+            outline: solid 1px rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-style: none;
+        }
+
+        p {
+            font-family: serif;
+            font-size: large;
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        h1 {
+            font-family: serif;
+        }
+
+        #date {
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            margin-top: 10px;
+
+        }
+
+        #p {
+            text-align: center;
+        }
+
+        #p1 {
+            display: inline-flex;
+        }
+
+        #p2 {
+
+            margin-left: 50px;
+            margin-inline-start: 50px;
+            margin-top: 10p;
+        }
+
+        #reg {
+            display: inline;
+            margin-top: 40px;
+        }
+
+        reg1 {
+
+            width: fit-content;
+            height: fit-content;
+        }
+    </style>
+    <script>
+        document.querySelectorAll('.form-outline').forEach((formOutline) => {
+            new mdb.Input(formOutline).init();
+        });
+        // function Style() {
+        //         var element = document.getElementById('box');
+        //         element.style.border.top.color = 'rgb(255, 255, 255)';
+
+        //         // Add more style properties as needed
+        //     }
+        //     Style(); // Call the function to apply styles
+        //     const password = document.querySelector('input[type="text"]');
+
+        //    password.addEventListener("focus", (event) => {
+        //    event.target.style.border.top.color='red';});
+        function applyHighlight() {
+            var element = document.getElementById('myElement');
+            element.classList.toggle('highlight');
+        }
+
+    </script>
+
+</body>
+
+</html
