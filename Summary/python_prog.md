@@ -76,4 +76,14 @@ summary: Python Basics
 - Tuple basics and immutability
 - List programs like max, min, sum
 
+## 07-06-2025  
+**Topic Learned**: Lists & Tuples  
+**🛠️ Activities**:
+
+### Lists:
+- **Accessing Elements & Slicing**
+  ```python
+  my_list = [10, 20, 30, 40, 50]
+  print(my_list[1])       # 20
+  print(my_list[1:4])     # [20, 30, 40]
 

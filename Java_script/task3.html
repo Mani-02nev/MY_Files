@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Multi Color Change</title>
+     <style>
+          .center {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+               transition: background-color 0.5s ease;
+               /* Smooth animation */
+          }
+
+          button {
+               padding: 10px 20px;
+               font-size: 18px;
+          }
+     </style>
+</head>
+
+<body>
+
+     <div class="center" id="colorBox">
+          <button onclick="changeColor()">Change Color</button>
+     </div>
+
+     <script>
+          const colors = ["red", "green", "blue", "orange", "purple", "yellow", "pink"];
+          let index = 0;
+
+          function changeColor() {
+               const box = document.getElementById("colorBox");
+               box.style.backgroundColor = colors[index];
+               index = (index + 1) % colors.length;
+          }
+
+     </script>
+
+</body>
+
+</html>
