@@ -1,0 +1,84 @@
+📘 Digital Logic and Design (DLD) – Morning Exam
+🔹 1. Important Topics:
+Number Systems & Conversions (Binary, Decimal, Hex, Octal)
+
+Logic Gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)
+
+Boolean Algebra (Laws, Simplification, De Morgan’s Theorem)
+
+K-Map (2, 3, 4 Variable)
+
+Combinational Circuits:
+
+Half Adder / Full Adder
+
+Half Subtractor / Full Subtractor
+
+Multiplexer / Demultiplexer
+
+Encoder / Decoder
+
+Flip-Flops (SR, JK, D, T – Truth Tables and Diagrams)
+
+🔹 2. Practice Questions:
+Design a Full Adder circuit (8 marks)
+
+Draw K-map for 3 variables and simplify the expression (6 marks)
+
+Explain De Morgan’s Theorems with proof (4 marks)
+
+Differentiate between Encoder and Decoder (4 marks)
+
+🔹 3. Diagrams:
+Draw neat diagrams of:
+
+Logic Gates with truth tables
+
+Full Adder circuit
+
+4:1 Multiplexer
+
+SR Flip-Flop logic diagram
+
+📗 RDBMS (Relational Database Management System) – Evening Exam
+🔹 1. Important Topics:
+DBMS vs RDBMS
+
+Components of DBMS
+
+Keys (Primary, Foreign, Candidate, Super Key)
+
+SQL Basics:
+
+CREATE, INSERT, SELECT, UPDATE, DELETE
+
+Constraints (NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY)
+
+Normalization (1NF, 2NF, 3NF)
+
+ER Diagram and Relationship Types
+
+Joins (INNER, LEFT, RIGHT, FULL)
+
+🔹 2. Practice Questions:
+Write SQL query to insert values into a table (2 marks)
+
+Define and explain the types of keys (6 marks)
+
+What is normalization? Explain 1NF and 2NF with example (6 marks)
+
+Draw an ER diagram for college database (4 marks)
+
+🔹 3. Sample SQL Queries:
+sql
+Copy
+Edit
+CREATE TABLE student (
+   id INT PRIMARY KEY,
+   name VARCHAR(50),
+   dept VARCHAR(30)
+);
+
+INSERT INTO student VALUES (1, 'Mani', 'CSE');
+
+SELECT * FROM student WHERE dept = 'CSE';
