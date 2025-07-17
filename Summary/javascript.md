@@ -57,7 +57,7 @@
 
 ---
 
-## ✏️ Key Takeaways:
+##  Key Takeaways:
 - DOM = Bridge between JS and HTML
 - Selecting, modifying, creating, and deleting nodes
 - Event-driven programming: changing UI on user actions

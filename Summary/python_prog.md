@@ -78,13 +78,12 @@ summary: Python Basics
 
 ## 09-07-2025  
 **Topic Learned**: Lists & Tuples  
-**🛠️ Activities**:
-
-### Lists:
-- **Accessing Elements & Slicing**
+**🛠️ Activities**: 
+-  **Accessing Elements & Slicing**
   my_list = [10, 20, 30, 40, 50]
   print(my_list[1])       # 20
   print(my_list[1:4])     # [20, 30, 40]
+
 
 ## 13-07-2025
 **Topic Learned**:  Data Structures
