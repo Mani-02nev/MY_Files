@@ -24,14 +24,21 @@
 -   Simple calculator using `switch` statement  
 -   Format for user input/output
 
-### July 1, 2025
+### July 3, 2025
 -   Use of `struct` and `union` to store `int`, `float`, `char` together  
 -   Memory difference between `struct` and `union`
 
-### July 2, 2025
+### July 6, 2025
 -   Assigning same string to multiple variables (like `$x = $y = $z = "Fruit"`)  
 -   Using `char[]` and `strcpy()` in C
 
-### July 3, 2025
+### July 8, 2025
 -   Full summary: Data Types, Variables, Storage Class, Memory Layout  
 -   Differences between primitive and derived typ
+### July 11,2025
+- 1D Arrays: Input/output of elements
+
+### July 15,2025
+- 2D Arrays: Matrix addition
+### July 17,2025
+- `goto` and `label` usage in C

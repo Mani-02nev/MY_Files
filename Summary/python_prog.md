@@ -61,7 +61,7 @@ summary: Python Basics
 - Practiced `for` and `while` loops
 - Pattern printing and number series
 ---
-## 01-06-2025  
+## 01-07-2025  
 **Topic Learned**: Functions  
 **Activities**:
 - Created functions using `def`
@@ -69,21 +69,29 @@ summary: Python Basics
 - Practiced with calculator and factorial functions
 
 ---
-## 02-06-2025  
+## 02-07-2025  
 **Topic Learned**: Lists & Tuples  
 **Activities**:
 - Accessing list elements, slicing, methods like `append`, `pop`
 - Tuple basics and immutability
 - List programs like max, min, sum
 
-## 07-06-2025  
+## 09-07-2025  
 **Topic Learned**: Lists & Tuples  
 **🛠️ Activities**:
 
 ### Lists:
 - **Accessing Elements & Slicing**
-  ```python
   my_list = [10, 20, 30, 40, 50]
   print(my_list[1])       # 20
   print(my_list[1:4])     # [20, 30, 40]
 
+## 13-07-2025
+**Topic Learned**:  Data Structures
+**🛠️ Activities**: 
+- Lists: creation, indexing, slicing, methods (append, remove, pop, sort)
+- Sets: unique collections
+## 17-07-2025
+**Topic Learned**:String Handling
+**🛠️ Activities**: 
+- String methods: `upper()`, `lower()`, `split()`, `replace()`, `find()`.
