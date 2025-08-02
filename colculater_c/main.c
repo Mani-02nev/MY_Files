@@ -3,11 +3,11 @@
 #include "Arithmatic/arithmetic.h"
 #include "bitwise/bitwise.h"
 #include "other/other.h"
-#include "/Users/gobinath/study/mani/colculater_c/varables/globel.h"
+#include "/Users/gobinath/study/mani/colculater_c/variables/globel.h"
 
 void usage()
 {
-     printf("Usage: ./cal [-h] [-a] [-b]\n");
+     printf("*****Usage: ./cal [-h] [-a] [-b]*****\n");
      printf("  -h : Show help\n");
      printf("  -a : Arithmetic operations\n");
      printf("  -b : Bitwise operations\n");
@@ -17,7 +17,8 @@ void start()
 {
 
      printf("OPTIONS:\n1)Arithmetic operations\n2)Bitwise operations\n3)Other operations\n");
-     printf("ENTER YOUR OPTION:\n");
+     printf("\n================================\n");
+     printf("\nENTER YOUR OPTION:");
      scanf("%d", &optional);
      switch (optional)
      {
@@ -32,6 +33,7 @@ void start()
           break;
 
      default:
+          printf("ENTER VALID OPTIONS ONLY\n");
           break;
      }
 }

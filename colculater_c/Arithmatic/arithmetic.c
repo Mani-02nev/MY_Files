@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "/Users/gobinath/study/mani/colculater_c/varables/globel.h"
+#include "/Users/gobinath/study/mani/colculater_c/variables/globel.h"
 
 void sum()
 {
