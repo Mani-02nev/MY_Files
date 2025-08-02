@@ -20,8 +20,8 @@
          + option 1 : call 'B_And' faction
          + option 2 : call 'B_or' faction
          + option 3 : call 'B_not' faction 
-    + option 3 : Logical operation 
-         + Show a option help page in a bit.c
+    + option 3 : other operation 
+         + Show a option help page in a other.c
          + option 1 : call 'L_And' faction
          + option 2 : call 'L_or' faction
          + option 3 : call 'L_not' faction 

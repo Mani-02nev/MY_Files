@@ -18,13 +18,12 @@ static int get__input()
           printf("ENTER SHIFT NUMBER: ");
           scanf("%d", &b);
      }
-
      return 0;
 }
 void bit_and()
 {
      get__input();
-     printf("AND RESULT : %d \n", a&b);
+     printf("AND RESULT : %d \n", a & b);
 }
 void bit_or()
 {
@@ -50,8 +49,8 @@ void bit_left_shift()
 int bit_op()
 {
      printf("\n****************************************\n");
-    printf("   WELCOME TO BITWISE CALCULATIONS\n");
-    printf("****************************************\n");
+     printf("   WELCOME TO BITWISE CALCULATIONS\n");
+     printf("****************************************\n");
      printf("\nOPTION:\n1)AND\n2)OR\n3)NOT\n4)RIGHT SIFT\n5)LEFT SIFT\n");
      printf("\nENTER YOUR OPTION:");
      scanf("%d", &optional);
@@ -80,5 +79,4 @@ int bit_op()
           printf("\nENTER VALID OPTION");
      }
      return 0;
-     
 }
