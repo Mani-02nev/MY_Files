@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "globel.h"
+#include "global.h"
 
 int a = 0;
 int b = 0;

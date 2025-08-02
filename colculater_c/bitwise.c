@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "bitwise.h"
-#include "/Users/gobinath/study/mani/colculater_c/variables/globel.h"
+#include "global.h"
+
 static int get__input()
 {
      printf("ENTER A FIRST NUMBER:");

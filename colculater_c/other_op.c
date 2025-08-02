@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "other.h"
-#include "/Users/gobinath/study/mani/colculater_c/variables/globel.h"
+#include "global.h"
+
+
 void Equal()
 {
      get_input();

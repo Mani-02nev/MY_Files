@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "Arithmatic/arithmetic.h"
-#include "bitwise/bitwise.h"
-#include "other/other.h"
-#include "/Users/gobinath/study/mani/colculater_c/variables/globel.h"
+#include "arithmetic.h"
+#include "bitwise.h"
+#include "other.h"
+#include "global.h"
 
 void usage()
 {
