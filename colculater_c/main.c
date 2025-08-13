@@ -3,7 +3,11 @@
 #include "arithmetic.h"
 #include "bitwise.h"
 #include "other.h"
+<<<<<<< HEAD
 #include "global.h"
+=======
+#include "globel.h"
+>>>>>>> 60d17d9 (commit on 13aug)
 
 void usage()
 {
@@ -48,6 +52,10 @@ int handle_option(int argc, char *argv[])
      {
           switch (opt)
           {
+          case 'null':
+               usage();
+               start();
+               break;
           case 'h':
                usage();
                break;
@@ -61,7 +69,7 @@ int handle_option(int argc, char *argv[])
                optional = 3;
                break;
           default:
-               usage();
+               printf("enter valid option ");
                break;
           }
      }
@@ -75,10 +83,7 @@ int main(int argc, char *argv[])
 
      switch (optional)
      {
-     case 0:
-          usage();
-          start();
-          break;
+
      case 1:
           arith_op();
           break;

@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include "other.h"
+<<<<<<< HEAD
 #include "global.h"
 
 
+=======
+#include "globel.h"
+>>>>>>> 60d17d9 (commit on 13aug)
 void Equal()
 {
      get_input();
@@ -63,6 +67,7 @@ int other_op()
           le_equal();
           break;
      default:
+          printf("Enter valid options\n");
           break;
      }
      return 0;
